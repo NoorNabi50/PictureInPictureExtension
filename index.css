@@ -1,0 +1,112 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+    padding: 12px 20px 0px 20px;
+    background-color: #f4f4f4;
+  }
+
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+
+  button:active {
+    transform: translateY(0px);
+  }
+
+  footer {
+    font-size: 12px;
+    margin-top: 20px;
+    color: #777;
+    font-weight: 900;
+  }
+
+  hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+  }
+
+  @media (max-width: 400px) {
+    h1 {
+      font-size: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  }
+
+
+      .control-group {
+        margin: 20px 0;
+        text-align: left;
+      }
+
+      .control-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size: 14px;
+        color: #555;
+      }
+
+      input[type="range"] {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+
+      select {
+        width: 100%;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 15px;
+      }
+
+      .smarTxt {
+        font-size: 26px;
+        font-weight: 600;
+        color: #555; 
+        letter-spacing: 1px; 
+      }
+      
+      .pipTxt {
+        font-size: 34px; 
+        font-weight: bold;
+        color: #007bff; 
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+        letter-spacing: 2px; 
+        transform: scale(1.1); 
+        transition: transform 0.3s ease; 
+      }
+      
+      .pipTxt:hover {
+        transform: scale(1.2);
+      }
+
+      .message{
+        font-weight:300;
+      }
+      

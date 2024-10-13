@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartPiP Extension</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <span class="smarTxt">Smart</span><span class="pipTxt">Pip</span>
+  <p class="message">Manage your videos with Picture-in-Picture</p>
+  <hr />
+  <div class="control-group">
+    <label for="volumeControl">Volume Control</label>
+    <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="0.5" />
+  </div>
+  <div class="control-group">
+    <label for="speedControl">Playback Speed</label>
+    <select id="speedControl">
+      <option value="0.5">0.5x</option>
+      <option value="1" selected>1x (Normal)</option>
+      <option value="1.25">1.25x</option>
+      <option value="1.5">1.5x</option>
+      <option value="2">2x</option>
+    </select>
+  </div>
+  <button id="activatePiPBtn">Activate PiP Mode</button>
+
+  <footer class="footer">
+    <p>Developed by Nabi &#128526</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
